@@ -1,0 +1,136 @@
+/* reset */
+body,div,dd,dt,ul,li,h1,h2,h3,p,th,td{margin:0;padding:0;}
+ul{list-style: none;}
+table{border-collapse: collapse;border: spacing 0;}
+img{border: 0;}
+
+body{
+	font: 14px/1.9 'Noto Sans JP', Arial, Verdana, 游ゴシック, YuGothic,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,sans-serif;
+	font-weight: 300;
+	-webkit-text-size-adjust:100%;
+	overflow-x: hidden;
+	color: #000;
+	background: #fff;
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover, .active{
+  text-decoration: underline;
+}
+
+a:active, a:focus,input:active, input:focus{outline:0;}
+
+#mainImg{
+    width: 800px;
+    height: 460px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+/* header */
+#mainnav a{
+    color: #000;
+    font-family:'Modern Antiqua', 'Noto Sans JP',serif;
+}
+
+/* footer */
+footer{
+	clear: both;
+	padding: 50px 10px 50px 0;
+	text-align: center;
+	font-size: 15px;
+}
+
+/* common */
+#my_twitter{
+    color:grey;
+}
+
+h3{
+    font-family:'Lato', sans-serif;
+    padding-bottom: 15px;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+section{
+  clear: both;
+}
+
+#menu{
+
+	margin: auto;
+    font-size: 35px;
+    font-weight: normal;
+    text-align: center;
+    font-family:'Lato', sans-serif;
+}
+
+#sidebar{
+    width:300px;
+    min-height:500px;
+    float:right;
+    margin-top:10px;
+    position: sticky;
+    z-index: 1;
+    font-size: 25px;
+    text-align: center;
+    font-family:'Lato', sans-serif;
+
+}
+
+section h2{
+	width: 60%;
+	margin: 70px auto;
+	font-size: 25px;
+	font-weight:normal;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+section h2 span {
+	padding-bottom: 15px;
+	border-bottom: 1.5px solid #000;
+}
+
+.txt{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+	padding-bottom: 80px;
+}
+
+.inner{
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+#btn-home{
+    text-align: center;
+    margin: 10px;
+
+}
+
+/* skills program_lang */
+.program_lang .img{
+    margin: 0 auto;
+}
+#skills .inner{
+    border-bottom: 1px solid
+}
+
+.img{
+    border-radius: 50%;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    padding-bottom: 10px;
+}
