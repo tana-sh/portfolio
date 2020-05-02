@@ -3,35 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>Shun's PortFolio</title>
+    <title>Shun's Portfolio</title>
     <!-- cssやjsを挿入する -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="all" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
 
 </head>
-<body id='top'>
+<body>
     <div id='wrapper'>
-        <div id='sidebar'>
-            <div id='sidebarWrap'>
-                <h1 id='menu'>Menu</h1>
-                <nav id='mainnav'>
-                    <p id='menuWrap'><a id="menu"><span id='menuBtn'></span></a></p>
+        <div id='content'>
+            <div id='mainImg'>
+                <p><img src="images/mainImg.png" alt="main-img"></p>
+            </div>
+            <div id='menubar'>
+                <nav id='gnav'>
                     <div class='panel'>
                         <ul>
                             <li><a href="#profile">Profile</a></li>
                             <li><a href="#skills">Skills</a></li>
                             <li><a href="#works">Works</a></li>
-                            <!-- <li><a href="#blog">blog</a></li> -->
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
-
                     </div>
                 </nav>
-            </div>
-        </div>
-
-        <div id='content'>
-            <div id='mainImg'>
-                <p><img src="images/mainImg.png" alt="main-img"></p>
             </div>
             <!-- profile -->
             <section id="profile">
@@ -45,37 +39,36 @@
             <!-- skills -->
             <section id='skills'>
                 <header><h2><span>Skills</span></h2></header>
-                <div class="innner">
+                <div class="inner">
                     <ul class='program_lang'>
-                        <li>
+                        <li id='python'>
                             <p class='img'><img src="images/Python.png" alt=""></p>
                             <div class="txt">
                                 <h3>Python</h3>
                                 <p>
-                                    今、勉強中の言語です。<br>
                                     Beautiful Soupを用いたwebスクレイピングや、<br>
                                     Djangoでの簡易的なブログサイトを作成することができます。<br>
-                                    機械学習や自動化などにも強い魅力的な言語なので、これから積極的に学んでいきたいです。
+                                    他にも機械学習や自動化などにも強い魅力的な言語なので、<br>
+                                    これから積極的に学んでいきたいです。
                                 </p>
                             </div>
                         </li>
-                        <li>
+                        <li id="html">
                             <p class="img"><img src="images/html.png" alt=""></p>
                             <div class="txt">
                                 <h3>html&css</h3>
                                 <p>
-                                    このサイトを一から作成できたのはHTML&CSSのおかげです。<br>
-                                    サイト作成することで、HTML&CSSの仕組みが理解できました。<br>
-                                    また、DjangoのWebアプリ等の、使いやすさはこれらのフロントエンド言語によって高められるため、<br>
-                                    個人開発に挑戦する際など、度々向き合うことになりそうです。
+                                    このサイトの作成を通じて身につけました。<br>
+                                    いくつものwebページのhtmlを読むことで、<br>
+                                    ある程度HTML&CSSの仕組みが理解できました。
                                 </p>
                             </div>
-
                         </li>
-                        <li>
+
+                        <li id='server'>
                             <p class="img"><img src="images/centos.png" alt=""></p>
                             <div class="txt">
-                                <h3>サーバ技術</h3>
+                                <h3>サーバ構築</h3>
                                 <p>
                                     仮想マシンにLinuxを入れてサーバ運用をしてみました。<br>
                                     デプロイするだけで、手こずるのでまだまだ使えるとは言えないですが(笑)<br>
@@ -83,7 +76,7 @@
                                 </p>
                             </div>
                         </li>
-                        <li>
+                        <li id="java">
                             <p class='img'><img src="images/Java.png" alt=""></p>
                             <div class="txt">
                                 <h3>Java</h3>
@@ -104,8 +97,16 @@
                 <p class="txt">
                     プログラミングを用いて作成したものをいくつか紹介します。<br>
                     また、ここで挙げられなかったものはGitHubにて公開しています。<br>
-                    <p><img src="images/unbanned.png" id="unbanned"></p>
+                </p>
+                <div id="unbanned"><img src="images/unbanned.png"></div>
+            </section>
 
+            <section id="contact">
+                <header><h2><span>Contact</span></h2></header>
+                <p class="txt">
+                    連絡はTwitterまでお願いします。
+                    <p id='twitter_icon'><a href="https://twitter.com/shun_py711" id="my_twitter"><img src="images/twitter.png"></a><br><a href="https://twitter.com/shun_py711" id="my_twitter">Twitter</a></p>
+                    <br>
                 </p>
             </section>
 
@@ -118,7 +119,7 @@
             </div>
 
             <footer>
-                Copyright© SHUN'S PortFolio 2020.
+                Copyright© SHUN'S portfolio 2020.
             </footer>
         </div>
     </div>
